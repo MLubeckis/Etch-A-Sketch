@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
 body * {
@@ -11,12 +11,19 @@ body * {
 
 #container {
     display: flex;
-    max-width: 1200px;
-    max-height: 1200px;
+    max-width: 480px;
+    max-height: 480px;
+    flex-wrap: wrap;
 }
 
 .square {
-    height: 75px;
-    width: 75px;
+    height: 30px;
+    width: 30px;
     border: 1px solid black;
+    /* transition: .6s ease-in-out; */
 }
+
+/* .square:hover {
+    background-color: #b1b1b1;
+    transition: .2s ease-in-out;
+} */
