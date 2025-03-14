@@ -19,6 +19,7 @@ body * {
 .square {
     /* height: 30px;
     width: 30px; */
+    /* opacity: 0; */
     border: 1px solid black;
 }
 
